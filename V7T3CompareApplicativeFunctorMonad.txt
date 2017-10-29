@@ -1,0 +1,5 @@
+What are the main differences between applicative functors (specifically Applicative) and monads (specifically Monad)?
+
+Monadilla voi suorittaa efektej‰ samalla kun ohjelmaa lasketaan, niin ett‰ aiemmilla efekteill‰ on vaikutusta myˆhemmin tapahtuviin efekteihin. Esimerkiksi voidaan kuunnella io inputti ja antaa siihen perustuen jokin io outputti. Applikatiivill‰ taas pit‰‰ olla etuk‰teen kasassa kaikki tieto siit‰ mit‰ tulee tapahtumaan.
+
+Monadilta lˆytyy erityisesti bind(>>=) funktio, jota applikatiivill‰ ei ole. Muuten monadi toteutaa aina applikatiivin. Sen lis‰ksi monadilta kuuluu myˆs lˆyty‰ (>>), joka suorittaa yhden monadin efectin ja ottaa sis‰‰ns‰ seuraavan monadin. sek‰ return joka laittaa jonkin arvon monadin sis‰lle. 

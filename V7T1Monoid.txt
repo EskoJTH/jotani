@@ -1,0 +1,3 @@
+What are monoids (basically represented by the type class Monoid)?
+
+Kaksi samantyyppistä Monoidia voidaan yhdistää sen tyypistä riippuen jollakin tavalla käyttämällä mappend(<*>) funktiota yhdeksi monoidiksi (Voidaan myös tehdä listalle monoideja). Modoidilla pitää myös olla tyhjä tila (mempty). 

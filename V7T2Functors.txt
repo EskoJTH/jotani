@@ -1,0 +1,3 @@
+Why is it useful to have functor instances (primarily Functor) for your types?
+
+Voit käyttää fmappia johonkin tyyppiin käärittyjen arvojen muuttamiseen ja niiden oman tyypin muuttamiseen, niin että tyypi johon sisältö on kääritty pysyy samana. Esimerkiksi todella kätevä jos haluaa tehdä jotakin kaikille arvoille vaikka listassa. monet muut tyyppiluokat ja Funktiot vaativat myös pohjalle Funktorin toimiakseen. Funcorin tapaisia tyyppiluokkia on myös muutama muu kuten Bifunctor, Profunctor ja muutama muu, jotka tekevät suunnilleen samaa asiaa kuin Functor mutta hieman erilaiselle datalle. Contravariant on funktorin kaltainen tyyppiluokka, mutta kun funktori ottaa ensimmäiseksi parametriksi (a->b) niin contrtavariantti ottaa (b->a).

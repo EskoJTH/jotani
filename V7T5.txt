@@ -1,0 +1,3 @@
+Why would you ever represent your types as the fixed points of functors (using Fix, Mu or Nu)?
+
+Fixed pointilla voin joissakin tilanteissa saada datatyypilleni johdettua helposti funktorin, applikatiivin, traversablen, foldablen ja varmaan paljon muutakin. Fix andtaa myös mahdollisuuden tehdä rekursioskeemoja erityisesti catamorphismeja joilla pystyy käsitelemään aikaisemmin luotua fix rakennetta todella monipuolisesti.
